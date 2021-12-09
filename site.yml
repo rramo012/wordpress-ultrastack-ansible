@@ -63,7 +63,7 @@
         - lamp_installed.changed
 
 - name: Deploy WordPress to defined hosts in the 'wordpress' group
-  hosts: wordpress
+  hosts: all
 
   pre_tasks:
     - name: Create /etc/ansible
